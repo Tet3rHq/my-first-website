@@ -655,3 +655,30 @@ body.dark-mode textarea {
 body.dark-mode .section-divider {
     color: #f7f5f0;
 }
+
+/* HERO BUTTON VISIBILITY */
+.hero-link {
+    display: inline-block;
+    color: #687858;
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px solid #687858;
+    padding: 13px 22px;
+    border-radius: 3px;
+    transition: 0.3s ease;
+}
+
+.hero-link:hover {
+    background-color: #687858;
+    color: white;
+}
+
+body.dark-mode .hero-link {
+    color: #c2d1a8;
+    border-color: #c2d1a8;
+}
+
+body.dark-mode .hero-link:hover {
+    background-color: #c2d1a8;
+    color: #20221f;
+}
