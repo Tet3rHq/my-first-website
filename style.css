@@ -577,3 +577,81 @@ footer {
         margin-top: 40px;
     }
 }
+.about-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #82916b;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    border-bottom: 1px solid #82916b;
+    padding-bottom: 5px;
+    transition: 0.3s ease;
+}
+
+.about-link:hover {
+    color: #292b27;
+    border-color: #292b27;
+}
+#theme-toggle {
+    width: 34px;
+    height: 34px;
+    padding: 0;
+    margin-left: 18px;
+    border: 1px solid #82916b;
+    border-radius: 50%;
+    background: transparent;
+    font-size: 15px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: 0.3s ease;
+}
+
+#theme-toggle:hover {
+    background: #82916b;
+    transform: rotate(20deg);
+}
+
+/* DARK MODE */
+body.dark-mode {
+    background-color: #20221f;
+    color: #f7f5f0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode nav,
+body.dark-mode .hero,
+body.dark-mode .about,
+body.dark-mode .services,
+body.dark-mode .contact,
+body.dark-mode footer {
+    background-color: #20221f;
+    color: #f7f5f0;
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode p,
+body.dark-mode nav a {
+    color: #f7f5f0;
+}
+
+body.dark-mode .service-card {
+    background-color: #30332e;
+    color: #f7f5f0;
+}
+
+body.dark-mode input,
+body.dark-mode textarea {
+    background-color: #30332e;
+    color: #f7f5f0;
+    border-color: #82916b;
+}
+
+body.dark-mode .section-divider {
+    color: #f7f5f0;
+}
